@@ -4,8 +4,9 @@
 
     $valor = $_POST['valor'];
 
-    $resposta = $valor * 100;
+    centimetro($valor);
 
-    echo "O valor em cm é: $resposta";
+    
+    
     
     require_once "rodape.php";

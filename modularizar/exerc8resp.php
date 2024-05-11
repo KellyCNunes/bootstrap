@@ -4,11 +4,8 @@
 
     $area = $_POST['valor'];
 
-    $tintaL = $area / 3;
-    $latas = ($tintaL/18);
-    $total = $latas * 80; 
+    tintas($area);
 
-    echo "A quantidade de lata(s) de tinta necessária(s): $latas<br>";
-    echo "Preço total: R$ ".number_format($total, 2, ',', '.');
+    
     
     require_once "rodape.php";
